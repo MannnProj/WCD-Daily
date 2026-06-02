@@ -33,9 +33,15 @@
         dan pertumbuhan bisnis kecil.
       </p>
 
-      <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg shadow-indigo-600/20 transition-colors">
+      <button id="ctaBtn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg shadow-indigo-600/20 transition-colors">
         Mulai Gratis
       </button>
+      
+      <div class="mt-8 inline-flex items-center gap-4 rounded-2xl border border-indigo-100 bg-white/80 px-5 py-3 shadow-sm">
+        <span class="text-sm font-medium text-gray-600">Counter:</span>
+        <span id="counterValue" class="min-w-8 text-lg font-bold text-indigo-600">0</span>
+      </div>
+      <p id="cta-feedback" class="mt-4 text-sm text-gray-500 font-medium hidden"></p>
     </section>
 
     <section class="py-16 px-6 sm:px-8 bg-slate-50">
@@ -91,5 +97,6 @@
     <p>&copy; 2025 BrandKu. All rights reserved.</p>
   </footer>
 
+  <script src="index.js"></script>
 </body>
 </html>
